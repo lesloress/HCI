@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Translator
 {
-    public partial class Form1 : Form
+    public partial class firstTr : Form
     {
-        public Form1()
+        public firstTr()
         {
             InitializeComponent();
+            //changeLang.Image = Image.FromFile(@"D:\Учеба\ЛМВз\Translator\images\changeicon.jpg");
+
         }
     }
 }
