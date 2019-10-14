@@ -18,5 +18,10 @@ namespace Translator
             //changeLang.Image = Image.FromFile(@"D:\Учеба\ЛМВз\Translator\images\changeicon.jpg");
 
         }
+
+        private void Back_but_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -16,7 +16,7 @@ namespace Translator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new firstTr());
+            Application.Run(new MainForm());
         }
     }
 }
