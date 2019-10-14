@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.changeLang = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.buttonCopy = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.outputLang = new System.Windows.Forms.ComboBox();
             this.inputLang = new System.Windows.Forms.ComboBox();
             this.outputBox = new System.Windows.Forms.RichTextBox();
             this.inputBox = new System.Windows.Forms.RichTextBox();
-            this.changeLang = new System.Windows.Forms.Button();
-            this.buttonCopy = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -55,10 +55,24 @@
             this.panel1.Controls.Add(this.inputLang);
             this.panel1.Controls.Add(this.outputBox);
             this.panel1.Controls.Add(this.inputBox);
-            this.panel1.Location = new System.Drawing.Point(1, 33);
+            this.panel1.Location = new System.Drawing.Point(1, 65);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1011, 490);
+            this.panel1.Size = new System.Drawing.Size(1011, 458);
             this.panel1.TabIndex = 0;
+            // 
+            // changeLang
+            // 
+            this.changeLang.BackColor = System.Drawing.Color.LightBlue;
+            this.changeLang.BackgroundImage = global::Translator.Properties.Resources.changeicon;
+            this.changeLang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.changeLang.FlatAppearance.BorderSize = 0;
+            this.changeLang.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
+            this.changeLang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changeLang.Location = new System.Drawing.Point(475, 44);
+            this.changeLang.Name = "changeLang";
+            this.changeLang.Size = new System.Drawing.Size(66, 42);
+            this.changeLang.TabIndex = 10;
+            this.changeLang.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
@@ -76,6 +90,19 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(455, 67);
             this.panel2.TabIndex = 6;
+            // 
+            // buttonCopy
+            // 
+            this.buttonCopy.BackColor = System.Drawing.Color.White;
+            this.buttonCopy.BackgroundImage = global::Translator.Properties.Resources.copy;
+            this.buttonCopy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonCopy.FlatAppearance.BorderSize = 0;
+            this.buttonCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCopy.Location = new System.Drawing.Point(388, 3);
+            this.buttonCopy.Name = "buttonCopy";
+            this.buttonCopy.Size = new System.Drawing.Size(44, 54);
+            this.buttonCopy.TabIndex = 0;
+            this.buttonCopy.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
@@ -141,33 +168,6 @@
             this.inputBox.Size = new System.Drawing.Size(455, 260);
             this.inputBox.TabIndex = 0;
             this.inputBox.Text = "";
-            // 
-            // changeLang
-            // 
-            this.changeLang.BackColor = System.Drawing.Color.LightBlue;
-            this.changeLang.BackgroundImage = global::Translator.Properties.Resources.changeicon;
-            this.changeLang.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.changeLang.FlatAppearance.BorderSize = 0;
-            this.changeLang.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
-            this.changeLang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.changeLang.Location = new System.Drawing.Point(475, 44);
-            this.changeLang.Name = "changeLang";
-            this.changeLang.Size = new System.Drawing.Size(66, 42);
-            this.changeLang.TabIndex = 10;
-            this.changeLang.UseVisualStyleBackColor = false;
-            // 
-            // buttonCopy
-            // 
-            this.buttonCopy.BackColor = System.Drawing.Color.White;
-            this.buttonCopy.BackgroundImage = global::Translator.Properties.Resources.copy;
-            this.buttonCopy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonCopy.FlatAppearance.BorderSize = 0;
-            this.buttonCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCopy.Location = new System.Drawing.Point(388, 3);
-            this.buttonCopy.Name = "buttonCopy";
-            this.buttonCopy.Size = new System.Drawing.Size(44, 54);
-            this.buttonCopy.TabIndex = 0;
-            this.buttonCopy.UseVisualStyleBackColor = false;
             // 
             // firstTr
             // 
