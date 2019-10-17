@@ -81,11 +81,15 @@ namespace Translator
         private void button1_Click(object sender, EventArgs e)
         {
             inputBox.Text = "";
+            outputBox.Text = "";
         }
 
         private void buttonCopy_Click(object sender, EventArgs e)
         {
-            Clipboard.SetText(outputBox.Text);
+            if (outputBox.Text != "")
+            {
+                Clipboard.SetText(outputBox.Text);
+            }
         }
 
         private void changeLang_Click(object sender, EventArgs e)
@@ -93,6 +97,10 @@ namespace Translator
             object temp = inputLang.SelectedItem;
             inputLang.SelectedItem = outputLang.SelectedItem;
             outputLang.SelectedItem = temp;
+
+            string temp1 = outputBox.Text;
+            outputBox.Text = inputBox.Text;
+            inputBox.Text = temp1;
         }
     }
 }

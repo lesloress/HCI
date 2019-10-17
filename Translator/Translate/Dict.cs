@@ -24,9 +24,9 @@ namespace Translator.Translate
             },
             new string[][]
             {
-                new string[] {"great weather today" },
-                new string[] {"tolles Wetter heute"},
-                new string[] {"сегодня отличная погода"}
+                new string[] {"weather" },
+                new string[] {"Wetter"},
+                new string[] {"погода"}
             },
             new string[][]
             {
